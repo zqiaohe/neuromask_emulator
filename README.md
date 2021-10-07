@@ -17,7 +17,7 @@ There can be many devices sending data in this format to one service.
 Метка времени 4 байта (миллисекунды от начала работы маски)
  
 дальше идет key value датчиков
-key: 1  байт value: 4 байта  (тип float) (тут можно оптимизировать т.к. не всем датчикам нужно 4 байта)
+key: 1  байт value: 4 байта  (тип float)
  
 Конец передачи данных 2 байта  
 0xAAF1
